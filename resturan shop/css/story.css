@@ -1,0 +1,24 @@
+.story{
+    grid-column: 1/-1;
+}
+.story-image{
+    display: grid;
+    grid-gap: 10px;
+    padding: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(150px , 1fr));
+}
+.image{
+    width: 100%;
+    height: 220px;
+    border-radius: 10px;
+}
+@media screen and (max-width:670px){
+    .img4{
+        grid-column: 2/3;
+    }
+}
+@media screen and (max-width:400px){
+    .img4{
+        grid-column: auto;
+    }
+}

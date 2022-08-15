@@ -1,0 +1,55 @@
+.footer{
+  margin: 1rem 0px;
+    grid-column: 1/-1;
+    border-top: 1px solid black;
+    background-color: whitesmoke;
+}
+.footer-section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+    grid-template-rows: 1fr;
+    text-align: center;
+    grid-gap: 7px;
+    padding: 35px;
+    justify-items: center;
+}
+ul{
+    list-style: none;
+}
+li{
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.4s;
+}
+.copy{
+    font-size: 12px;
+    text-align: center;
+}
+.copy-text{
+    color: orange;
+}
+.footer-title{
+    color: orange;
+}
+li:hover{
+    color: orange;
+}
+.telegram{
+    transition: 0.4s;
+}
+.telegram:hover{
+    color: rgba(127, 188, 245, 0.986);
+}
+.wastop{
+    transition: 0.4s;
+}
+.wastop:hover{
+    color: rgb(90, 172, 90);
+}
+.youtube{
+    transition: 0.4s;
+}
+.youtube:hover{
+    color: red;
+}
